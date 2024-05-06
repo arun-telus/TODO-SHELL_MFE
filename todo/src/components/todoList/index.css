@@ -1,0 +1,18 @@
+.todoList{
+    max-height: 577px;
+    overflow: scroll;
+    min-width: 800px;
+}
+.todoItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: background-color 0.3s linear 0s;
+}
+.checkbox{
+  width: 30px;
+  transition: box-shadow 0.3s;
+}
